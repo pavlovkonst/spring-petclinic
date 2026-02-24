@@ -37,6 +37,11 @@ public class I18nPropertiesSyncTest {
 	private static final Pattern HAS_TH_TEXT_ATTRIBUTE = Pattern.compile("th:(u)?text\\s*=\\s*\"[^\"]+\"");
 
 	@Test
+	public void thisTestShouldFail() {
+		fail("Intentional failure to test CI pipeline");
+	}
+
+	@Test
 	public void checkNonInternationalizedStrings() throws IOException {
 		Path root = Paths.get("src/main");
 		List<Path> files;
