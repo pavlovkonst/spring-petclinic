@@ -37,7 +37,7 @@ public class I18nPropertiesSyncTest {
 
 	private static final Pattern HAS_TH_TEXT_ATTRIBUTE = Pattern.compile("th:(u)?text\\s*=\\s*\"[^\"]+\"");
 
-	@Disabled("Temporarily ignored in CI")
+	//@Disabled("Temporarily ignored in CI")
 	@Test
 	public void thisTestShouldFail() {
 		fail("Intentional failure to test CI pipeline");
