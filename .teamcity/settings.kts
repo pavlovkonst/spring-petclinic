@@ -26,7 +26,7 @@ object Build : BuildType({
         maven {
             name = "Test"
             goals = "test"
-            jdkHome = "%env.JDK_17_0%"
+            var jdkHome = "%env.JDK_17_0%"
         }
         maven {
             name = "Package"
