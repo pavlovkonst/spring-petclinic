@@ -5,7 +5,7 @@ import jetbrains.buildServer.configs.kotlin.triggers.vcs
 version = "2024.12"
 
 project {
-    description = "Spring PetClinic CI/CD Pipeline"
+    description = "Spring PetClinic CI/CD Pipeline."
 
     buildType(Build)
     buildType(Test)
