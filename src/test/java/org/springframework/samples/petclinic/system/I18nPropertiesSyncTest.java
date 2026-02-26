@@ -1,6 +1,5 @@
 package org.springframework.samples.petclinic.system;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -36,12 +35,6 @@ public class I18nPropertiesSyncTest {
 	private static final Pattern BRACKET_ONLY = Pattern.compile("<[^>]*>\\s*[\\[\\]](?:&nbsp;)?\\s*</[^>]*>");
 
 	private static final Pattern HAS_TH_TEXT_ATTRIBUTE = Pattern.compile("th:(u)?text\\s*=\\s*\"[^\"]+\"");
-
-	@Disabled("Temporarily ignored in CI")
-	@Test
-	public void thisTestShouldFail() {
-		fail("Intentional failure to test CI pipeline");
-	}
 
 	@Test
 	public void checkNonInternationalizedStrings() throws IOException {

@@ -10,4 +10,5 @@ class FailingTeamCityTest {
 	void failsToValidateTeamCityFailureHandling() {
 		fail("Intentional failure to validate TeamCity run failure handling.");
 	}
+
 }
