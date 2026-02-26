@@ -6,8 +6,8 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 class FailingTeamCityTest {
 
-    @Test
-    void failsToValidateTeamCityFailureHandling() {
-        fail("Intentional failure to validate TeamCity run failure handling.");
-    }
+	@Test
+	void failsToValidateTeamCityFailureHandling() {
+		fail("Intentional failure to validate TeamCity run failure handling.");
+	}
 }
