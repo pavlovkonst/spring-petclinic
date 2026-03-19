@@ -19,3 +19,5 @@ jobs:
           cache: maven
       - name: Build with Maven Wrapper
         run: ./mvnw -B verify
+        env:
+          MAVEN_OPTS: "-Xmx128m"
